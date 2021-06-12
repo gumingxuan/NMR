@@ -1,6 +1,7 @@
+  
 % China University of Petroleum, Beijing
-% Youlong Zou
-% 2014.03.20
+% Mingxuan Gu
+% gumingxuan_cup@163.com
 function [AC,bc]=wac(A,b,nc)
 np=zeros(nc,1);m=size(A);
 if (nc>=m)
