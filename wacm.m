@@ -1,6 +1,6 @@
 % China University of Petroleum, Beijing
-% Youlong Zou
-% 2014.03.20
+% Mingxuan Gu
+% gumingxuan_cup@163.com
 function [AC,bc]=wacm(A,b,nc,ne)
 nne=length(ne);
 if (length(nc)==1)
