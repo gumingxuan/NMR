@@ -2,6 +2,7 @@
 % China University of Petroleum, Beijing
 % Mingxuan Gu
 % gumingxuan_cup@163.com
+
 function [AC,bc]=wac(A,b,nc)
 np=zeros(nc,1);m=size(A);
 if (nc>=m)
